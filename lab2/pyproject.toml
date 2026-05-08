@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "time-series-lab2"
+version = "0.1.0"
+description = "Лабораторная работа №2: парсинг, анализ и прогнозирование погодных временных рядов"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29",
+    "jupyter>=1.1",
+    "matplotlib>=3.9",
+    "openpyxl>=3.1",
+    "pandas>=2.2",
+    "PyWavelets>=1.8",
+    "scipy>=1.14",
+    "seaborn>=0.13",
+    "scikit-learn>=1.5",
+    "statsmodels>=0.14",
+    "optuna>=4.0",
+]
+
+[tool.setuptools]
+py-modules = []
